@@ -1,0 +1,230 @@
+\documentclass{beamer}
+\mode<presentation> {
+%\usetheme{Madrid}
+%\usetheme{default}
+\usepackage{color}
+\definecolor{bottomcolour}{rgb}{0.21,0.11,0.21}
+\definecolor{middlecolour}{rgb}{0.21,0.11,0.21}
+\setbeamercolor{structure}{fg=white}
+\setbeamertemplate{frametitle}[default]%[center]
+\setbeamercolor{normal text}{bg=black, fg=white}
+\setbeamertemplate{background canvas}[vertical shading]
+[bottom=bottomcolour, middle=middlecolour, top=black]
+\setbeamertemplate{items}[circle]
+\setbeamertemplate{navigation symbols}{} %no nav symbols
+\setbeamercolor{block title}{use=structure,fg=white,bg=structure.fg!50!red!50!blue!100!green}
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!5!white!10!bg,fg=white}
+\setbeamertemplate{navigation symbols}{}
+}
+
+\usepackage{graphicx} 
+\usepackage{booktabs} 
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}  
+\usepackage{geometry}     
+\usepackage[francais]{babel} 
+\usepackage{eurosym}
+\usepackage{verbatim}
+\usepackage{ragged2e}
+\justifying
+
+\input{cc_beamer}
+
+\title[Les Chiffrofêtes]{Les Chiffrofêtes} 
+\author{Genma}
+
+\begin{document}
+
+%% Titlepage
+\begin{frame}
+	\titlepage
+	\vfill
+	\begin{center}
+		\CcGroupByNcSa{0.83}{0.95ex}\\[2.5ex]
+		{\tiny\CcNote{\CcLongnameByNcSa}}
+		\vspace*{-2.5ex}
+	\end{center}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Qu'est ce qu'une chiffofête?}
+
+\begin{block}{Chiffofête, cryptopartie...}
+\begin{itemize}
+\justifying{
+\item Le terme de cryptoparty (contraction de crypto - chiffrement et party - partie, fête) est souvent francisé en crytpopartie mais nous utilisons le terme de chiffofête (contraction de chiffrement et fête) qui se veut une traduction moins connoté de ce terme.
+\item  L'autre appellation que nous utilisons pour ce même type d'évènement étant les Café vie privée.
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Le public concerné}
+
+\begin{block}{Quel est le public ciblé/concerné par les chiffofêtes?}
+Le public est divers et varié :
+\begin{itemize}
+\justifying{
+\item Journalistes
+\item  Scolaires (Lycéens, étudiants)
+\item  Grand public (tout âge confondu)
+}
+\end{itemize}
+\justifying{
+D'une façon générale, ce peut être toute personne sensibilisée / concernées par les problématiques de la vie privée, de la sécurisation de ses communications...
+}
+\end{block}
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Ateliers}
+
+\begin{block}{Quels sont les ateliers possibles?}
+\begin{itemize}
+\justifying{
+\item  OTR “off the record”
+\item  TOR : Présentation de Tor, Utilisation via le Tor Browser bundle et/ou le live-cd Tails
+\item  TrueCrypt : Présentation, Création d'un conteneur chiffré, Utilisation avancée (Conteneur caché)
+\item  GPG : Thunderbird et Enigmail, création et gestion des clefs, réseau de confiance...
+\item  Le tracking sur Internet : utilisation d'extensions pour Firefox
+\item  Darknet : I2P etc.
+\item  Crytpoavancée : chiffrement de serveurs, TAHOELFS...
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Mini-conférences et conférences}
+
+\begin{block}{Mini-conférences et conférences}
+\begin{itemize}
+\justifying{
+\item  Au cours d'une chiffofête, une ou plusieurs conférences peuvent être présentées au public. 
+\item  La présentation d'une conférence peut être indépendante de l'organisation d'une chiffofête et les conférences peuvent être regroupées/fusionnées pour faire une conférence globale abordant différents thèmes au cours d'une après-midi ou sur une journée entière par exemple.
+}
+\end{itemize} 
+\end{block}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Organiser}
+
+\begin{block}{Qui peut faire une chiffofête?}
+\begin{itemize}
+\justifying{
+\item Toute personne qui a les connaissances minimales et qui souhaite les partager peut se lancer dans la mise en place de sa propre chiffofête.
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Logisitique}
+
+\begin{block}{Quelle est la logistique d'une chiffofête?} 
+\justifying{Les éléments suivants ont été identifiés : }
+\begin{itemize}
+\justifying{
+\item connaitre la capacité d'accueil du lieu, avoir un ou plusieurs contacts référents
+\item prévoir une inscription en ligne (pour évaluer le nombre de participants) sur un outil permettant l'anonymat
+\item prévoir un accès à Internet via un réseau filaire (câbles ethernet + switch) et/ou Wifi.
+\item prévoir chaises, tables, rallonges électriques en quantité suffisante
+\item un vidéo-projecteur 
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Le lieu}
+
+\begin{block}{Quels sont les lieux susceptibles d'accueillir une chiffofête?}
+\begin{itemize}
+\justifying{
+\item   
+Les chiffofêtes étant destinées à un public varié, du grand public aux utilisateurs plus avancé, les lieux peuvent être des médiathèques, des salons informatiques...
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Communication}
+
+\begin{block}{Quelques slogans peut-on utiliser pour promouvoir les chiffofête?}
+\begin{itemize}
+\justifying{
+\item Venez apprendre à protéger vos communications en ligne !
+\item Chiffrement et anonymat : reprenez le contrôle de votre vie privée.
+\item Surfez et chattez couverts avec des cypherpunks gentils.
+}
+\end{itemize}
+\end{block}
+
+\begin{block}{Ou encore}
+\begin{itemize}
+\justifying{
+\item Parce que préserver sa vie privée est un droit,
+\item Parce qu’on peut avoir envie de ne pas être espionné,
+\item Parce que l'on a TOUS quelque chose à cacher,
+\item Parce que les outils existent et ne sont pas si compliqués…
+\item Venez apprendre à vous protéger en ligne !
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Des conseils}
+
+\begin{block}{Quelques conseils pour le déroulement de la chiffofête?}
+\begin{itemize}
+\justifying{
+\item S'adapter au niveau des participants (du débutant à l'utilisateur avancé)
+\item Prendre en compte des besoins et des attentes du public.
+\item En début de séance, un petit sondage/tour de table permet de définir les attentes et les ateliers qui seront
+\item La durée conseillée pour les ateliers est de 1h30.
+\item Deux ateliers successifs semblent suffisant pour commencer (cela fait 3h avec une pause entre les deux).
+}
+\end{itemize}
+\end{block}
+\end{frame}
+  
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Le logiciel libre}
+
+\begin{block}{Et le logiciel libre dans tout ça?}
+\begin{itemize}
+\justifying{
+\item Dès que possible, c'est le logiciel libre qui est privilégié. Chacun vient avec son ordinateur et quelque soit le système d'exploitation (GNU/Linux, MacOSX, Windows, Android), les logiciels les plus adaptés sont proposés, installés.
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{Merci de votre attention.}}
+\Huge{\centerline{Place aux questions. Débattons...}}
+\end{frame}
+
+\end{document}
